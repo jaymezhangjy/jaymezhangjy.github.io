@@ -1,2 +1,9 @@
 title: Jayme Zhang
-remote_theme: poole/hyde
+tagline: this is tagline
+description: this is description
+url: www.linkedin.com/jaymezhangjy
+remote_theme: poole/poole
+paginate: 1
+
+
+
