@@ -7,27 +7,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
+    <header class="site-header">
+        <div class="container">
             <h1>Your Site Title</h1>
             <p class="description">Your site description goes here.</p>
-        </header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Archives</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
         <main class="content">
             <article class="post">
-                <h2 class="post-title"><a href="#">Sample Post Title</a></h2>
-                <p class="post-meta">May 19, 2024</p>
-                <p class="post-excerpt">This is a sample post excerpt. You can customize this content as needed.</p>
+                <header>
+                    <h2 class="post-title"><a href="#">Sample Post Title</a></h2>
+                    <p class="post-meta">May 19, 2024</p>
+                </header>
+                <div class="post-content">
+                    <p>This is a sample post excerpt. You can customize this content as needed.</p>
+                </div>
             </article>
             <hr>
             <article class="post">
-                <h2 class="post-title"><a href="#">Another Post Title</a></h2>
-                <p class="post-meta">May 18, 2024</p>
-                <p class="post-excerpt">This is another sample post excerpt. Add more posts as needed.</p>
+                <header>
+                    <h2 class="post-title"><a href="#">Another Post Title</a></h2>
+                    <p class="post-meta">May 18, 2024</p>
+                </header>
+                <div class="post-content">
+                    <p>This is another sample post excerpt. Add more posts as needed.</p>
+                </div>
             </article>
         </main>
-        <footer class="footer">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </footer>
+        <aside class="sidebar">
+            <h3>About</h3>
+            <p>This is a sidebar where you can add additional content.</p>
+        </aside>
     </div>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
