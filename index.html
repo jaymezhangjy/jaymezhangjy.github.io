@@ -3,54 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Site Title</title>
-    <link rel="stylesheet" href="styles.css">
+<title>Page Title</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <h1>Your Site Title</h1>
-            <p class="description">Your site description goes here.</p>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Archives</a></li>
-                    <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- The sidebar -->
     <div class="container">
-        <main class="content">
-            <article class="post">
-                <header>
-                    <h2 class="post-title"><a href="#">Sample Post Title</a></h2>
-                    <p class="post-meta">May 19, 2024</p>
-                </header>
-                <div class="post-content">
-                    <p>This is a sample post excerpt. You can customize this content as needed.</p>
-                </div>
-            </article>
-            <hr>
-            <article class="post">
-                <header>
-                    <h2 class="post-title"><a href="#">Another Post Title</a></h2>
-                    <p class="post-meta">May 18, 2024</p>
-                </header>
-                <div class="post-content">
-                    <p>This is another sample post excerpt. Add more posts as needed.</p>
-                </div>
-            </article>
-        </main>
         <aside class="sidebar">
-            <h3>About</h3>
-            <p>This is a sidebar where you can add additional content.</p>
+            <img src="headshot_round.png" alt="Profile Photo" class="profile-photo">
+            <h2 class="greeting">Hello, I'm Jayme!</h2>
+            <p class="description">Having spent the past decade igniting a passion for Math in students, 
+                I recently completed the Data Science Immersive bootcamp at General Assembly Singapore. 
+                While I love to simplify complex topics and share data-driven insights, 
+                I'm also drawn to the intricacies of machine learning and optimizing models. 
+                I'm eager to leverage this blend of skills to contribute meaningful work and make a positive impact.</p>
+            <ul class="contact-icons">
+                <li><a href="https://www.linkedin.com/in/jaymezhangjy/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/jaymezhangjy" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:jaymezhangjy@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            </ul>
         </aside>
+    
+    <!-- The content -->
+    <main class="content">
+        <article class="post">
+            <div class="post-header">
+                <div class="post-logo">
+                    <img src="hanzi_hero_icon.png" alt="Post Icon">
+                </div>
+                <h2 class="post-title"><a href="https://github.com/jaymezhangjy/hanzi_hero">Hanzi Hero: Empowering Kids to Master Chinese Characters</a></h2>
+            </div>    
+            <p class="post-description">This project aims to build an image recognition model for handwritten Chinese characters and 
+    deploy it to Streamlit, so that we can assist students and non-Chinese learners better with their learning of the Chinese language.
+    The <a href="https://github.com/jaymezhangjy/hanzi_hero">first repository</a> provides all the processes and codes needed to build the image recognition model, 
+    whereas the <a href="https://github.com/jaymezhangjy/hanzi_hero_streamlit">second repository</a> focuses on deploying the trained model to a user interface using Streamlit Cloud. 
+    The user interface can be accessed via this link: <a href="https://hanzi-hero.streamlit.app/">https://hanzi-hero.streamlit.app/</a>. </p>
+        </article>
+        
+        <!-- Add more posts as needed -->
+        <!-- <article class="post">
+            <div class="post-header">
+                <div class="post-logo">
+                    <img src="path/to/icon.jpg" alt="Post Icon">
+                </div>
+                <h2 class="post-title"><a href="path/to/post.html">Sample Post Title</a></h2>
+            </div>
+            <p class="post-description">This is a sample post excerpt. You can customize this content as needed.</p>
+        </article> -->
+        <!-- Add more posts as needed -->
+            
+    </main>
     </div>
+
+    <!-- The footer -->
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
+            <p>&copy; 2024 Jayme Zhang. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
+
