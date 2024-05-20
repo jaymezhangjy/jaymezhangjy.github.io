@@ -68,6 +68,20 @@ body {
   box-sizing: border-box;
 }
 
+.site-header {
+  background: #7b0447;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-bottom: 1em;
+  width: 100%; /* Ensures it spans the width of the content area */
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
 .post {
   margin-bottom: 2em;
 }
